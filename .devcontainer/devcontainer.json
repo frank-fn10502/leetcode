@@ -13,6 +13,10 @@
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"leetcode.nodePath": "/usr/bin/node",
+		//請先確定在 windows(作業系統) 安裝相對應的 font https://github.com/romkatv/powerlevel10k#manual-font-installation
+		"terminal.integrated.fontFamily": "MesloLGS NF",
+		//請先確定 dockerfile 有安裝 zsh
+		"terminal.integrated.defaultProfile.linux": "zsh"
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
