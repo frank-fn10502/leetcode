@@ -23,7 +23,7 @@
 		//請先確定 dockerfile 有安裝 zsh
 		"terminal.integrated.defaultProfile.linux": "zsh",
 		"leetcode.defaultLanguage": "cpp",
-		"leetcode.workspaceFolder": "/workspaces/cpp_spint"
+		"leetcode.workspaceFolder": "/workspace"
 	},
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
@@ -37,7 +37,7 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "gcc -v",
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode",
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
-	"workspaceFolder": "/workspace"
+	"workspaceFolder": "/workspace",
+	"remoteUser": "vscode"
 }
